@@ -14,9 +14,6 @@ chosen_word=list(chosen_word)
 for i in range(len(chosen_word)):
     user_word.append("_")
 
-#Testing code
-print(f'Pssst, the solution is {chosen_word}.')
-
 lives=6
 
 while chosen_word!=user_word:
